@@ -13,6 +13,7 @@ License
 -------
 
 © 2015 [EL Passion]
+
 Distributed under the [Creative Commons Attribution License].
 
 [Contributing]: CONTRIBUTING.md

@@ -1,15 +1,16 @@
-# Shortcut variable interpolation
+# `?A` Character literal
 
-Curly braces are optional when interpolating the `@`, `@@` or `$` variables:
+You can define single-character strings by `?x` character literal.
+
+`?x` syntax is equal to writing `"x"`:
 
 ```ruby
-@instance = 'instance'
-@@class   = 'class'
-$global   = 'global'
+letter =  ?A
+letter == 'A' # => true
 
-puts "#@instance, #@@class and #$global variables do not need curly braces"
+case letter
+  when ?A then puts 'My favorite letter!'
+  when ?1 then puts 'You have typed "one"'
+  when ?? then puts 'What was the question?'
+end
 ```
-
-Remember that `#` is still required :smile: See this [SO question] for an explanation.
-
-[SO question]: http://stackoverflow.com/questions/10091156/why-does-string-interpolation-work-in-ruby-when-there-are-no-curly-braces

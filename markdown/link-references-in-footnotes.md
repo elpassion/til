@@ -26,5 +26,5 @@ Just [*google*] it!
 Or click [here][open_struct_class] to see the docs.
 
 [*google*]: https://www.google.com/
-[open_struct_class]: [http://ruby-doc.org/stdlib/libdoc/ostruct/rdoc/OpenStruct.html]
+[open_struct_class]: http://ruby-doc.org/stdlib/libdoc/ostruct/rdoc/OpenStruct.html
 ```

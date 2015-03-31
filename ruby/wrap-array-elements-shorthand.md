@@ -12,7 +12,7 @@ This is equivalent to:
 [1, 2, 3].each { |number| puts number }
 ```
 
-Actually, it's not only for *wrapping* Array elements. You can use any method (of any Class or Object) to call it like it were a block.
+Actually, it's not only for *wrapping* Array elements. You can use any method (of any Class or Object) to pass it to any iterator like it were a block.
 
 More fancy examples:
 

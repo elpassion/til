@@ -1,3 +1,5 @@
+#### Problem: Filtering array of hashes by given values
+
 #### Sample input
 ```ruby
 hashes = [
@@ -9,9 +11,9 @@ hashes = [
 ]
 
 ids = [1, 3, 4]
-```
 
-#### PROBLEM: Filter hashes by given ids
+filter(hashes, ids) #=> [{"id"=>1}, {"id"=>3}, {"id"=>4}]
+```
 
 - With O(nk)
 ```ruby

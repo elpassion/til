@@ -15,7 +15,7 @@ ids = [1, 3, 4]
 filter(hashes, ids) #=> [{"id"=>1}, {"id"=>3}, {"id"=>4}]
 ```
 
-- With O(nk)
+#### Solution 1, O(nk)
 ```ruby
 def naive_filter(hashes, ids)
     hashes.select do |hash|
@@ -24,7 +24,7 @@ def naive_filter(hashes, ids)
 end
 ```
 
-- With O(n+k)
+#### Solution 2 - better, O(n+k)
 ```ruby
 def filter(hashes, ids)
     ids_map = Hash[ids.map { |id| [id, true] }]

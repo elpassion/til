@@ -1,6 +1,6 @@
 # Shortcut for `Array#join`
 
-To join array just multiple it with a string.
+To join array just multiply it with a string.
 
 ```ruby
 [1,2,3,4,5] * ','           # => "1,2,3,4,5"

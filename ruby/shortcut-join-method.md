@@ -1,4 +1,4 @@
-# Shortcut for `#join`
+# Shortcut for `Array#join`
 
 To join array just multiple it with a string.
 

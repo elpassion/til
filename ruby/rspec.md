@@ -1,2 +1,2 @@
 # File name
-Every spec file must ends with `_spec.rb`.
+Every spec file has to end with `_spec.rb`.
